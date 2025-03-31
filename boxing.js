@@ -12,7 +12,7 @@ let currentPlayer = player1;
 
 
 function generateDamage() {
-    return Math.floor(Math.random() * 10) + 1; // Damage ranges from 1 to 10
+    return Math.floor(Math.random() * 10) + 1; 
 }
 
 function applyDamage(opponent, damage) {
