@@ -55,7 +55,6 @@ function playTurn() {
     return true; 
 }
 
-// Game loop
 function startGame() {
     console.log("Starting the Boxing Game!");
     console.log(`${player1.name} vs ${player2.name}`);
